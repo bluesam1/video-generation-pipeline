@@ -1,0 +1,30 @@
+{
+  "name": "funny-ad-video-generator",
+  "version": "1.0.0",
+  "description": "AI-powered funny ad video generator using OpenAI and Replicate",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "verify": "node verify-setup.js"
+  },
+  "keywords": [
+    "video",
+    "generator",
+    "ai",
+    "ads",
+    "openai",
+    "replicate",
+    "veo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "openai": "^4.28.0",
+    "replicate": "^0.25.2",
+    "dotenv": "^16.4.1"
+  }
+}
+
