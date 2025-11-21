@@ -1,0 +1,254 @@
+{
+    "scene_1": {
+        "scene": {
+            "camera": {
+                "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",
+                "angle": "mix of close-up product shots and mid shots that show the subject's upper body and face while moving through the city",
+                "motion": "slow, smooth tracking moves alongside the subject with an occasional subtle push-in toward the sunglasses when connections happen",
+                "focus": "crisp focus on sunglasses frames, lenses, and reflections; background softly blurred with city bokeh"
+            },
+            "subject": {
+                "character": "confident, stylish urban creative who embodies a minimalist modern streetwear vibe",
+                "appearance": "medium skin tone, short textured dark hair, clean jawline, wearing a neutral-toned oversized shirt layered over a fitted tee, tapered black trousers, and sleek sneakers",
+                "expression": "relaxed, quietly amused confidence with small, knowing half-smiles that appear when spotting other wearers",
+                "accessories": "minimal black watch, slim ring, and a crossbody bag strap cutting diagonally across the chest"
+            },
+            "props": {
+                "main_props": "slim matte black wayfarer-style sunglasses with subtle metal logo at the temple and soft gradient tinted lenses",
+                "secondary_props": "phone in hand, reusable coffee cup, and a worn transit card that occasionally flashes into view",
+                "environment_props": "passing commuters, café tables and chairs, subway entrance railings, crosswalk lines, streetlights, glass storefronts, and subtle appearances of other people also wearing the same sunglasses"
+            },
+            "setting": {
+                "location": "dense modern downtown neighborhood where a café corner, subway entrance, busy crosswalk, and rooftop overlook all sit within a few city blocks",
+                "time": "late golden hour sliding into blue hour, with warm sunlight giving way to cooler city lights",
+                "background": "softly blurred mix of glass buildings, moving traffic, glowing windows, and the city skyline in the distance",
+                "atmosphere": "aspirational, stylish, slightly cinematic with a sense of a hidden community moving through the same shared city"
+            },
+            "lighting": {
+                "style": "high-end commercial lighting using natural golden backlight and soft fill, transitioning into cooler practical city lights that catch the edges of the frames",
+                "mood": "warm and inviting with a subtle mysterious edge, emphasizing reflections in the lenses whenever two superfans connect",
+                "shadows": "soft, flattering shadows sculpting the face and emphasizing the shape of the sunglasses without obscuring the eyes"
+            }
+        },
+        "action": {
+            "primary_action": "the subject walks down a city sidewalk toward camera, already wearing the sunglasses, casually adjusting them on the bridge of the nose as they move",
+            "secondary_actions": "a small breath out, slight head tilt as the glasses settle, and a tiny half-smile that flickers when something in the reflection catches their attention",
+            "interaction": "as the subject passes a glass storefront, the camera pushes in on the reflection revealing another passerby behind them wearing the exact same frames; their eyes meet only in the glass, sharing the briefest nod before continuing on",
+            "timing": "0-2s wide mid shot establishing the busy city block and the subject walking toward camera; 2-5s closer tracking alongside the subject as they adjust the sunglasses and the gradient lenses catch the warm light; 5-8s subtle push-in on the glass reflection as another person with matching frames enters the edge of frame and they exchange a tiny nod and half-smile before passing out of view",
+            "pacing": "smooth and curious, with the first recognition moment landing gently in the final seconds of the clip"
+        },
+        "dialogue": {
+            "speech": "Sometimes, you can just tell.",
+            "tone": "quiet, confident voiceover delivered as if sharing a secret with the viewer",
+            "lip_sync": "perfect lip synchronization",
+            "no_subtitles": true,
+            "no_captions": true,
+            "no_text_overlay": true
+        },
+        "audio": {
+            "voice": "clean, intimate voice with subtle city reverb, mixed just above the music",
+            "action_sounds": "soft footsteps on pavement, faint cloth rustles, and the tiny click of frames being adjusted",
+            "environmental": "muted city ambience with distant traffic, low crowd murmur, and a soft breeze between buildings",
+            "music": "modern, minimal electronic beat with warm bass and light percussive elements, starting gently to set an understated groove",
+            "ambience": "consistent, soft city bed that glues the scene together without ever overpowering the voice or product sounds"
+        },
+        "style": {
+            "genre": "high-end lifestyle commercial for sunglasses",
+            "mood": "cool, aspirational, and quietly conspiratorial with a touch of cinematic flair",
+            "visual_style": "high-contrast but polished, with rich warm highlights and creamy background bokeh, and reflections used as a storytelling device",
+            "pacing": "smooth edits that follow the subject's movement and land on the reflective recognition beat"
+        },
+        "no_subtitles": true,
+        "no_captions": true,
+        "no_text_overlay": true
+    },
+    "scene_2": {
+        "scene": {
+            "camera": {
+                "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",
+                "angle": "mix of close-up product shots and mid shots that show the subject's upper body and face while moving through the city",
+                "motion": "slow, smooth tracking moves alongside the subject with an occasional subtle push-in toward the sunglasses when connections happen",
+                "focus": "crisp focus on sunglasses frames, lenses, and reflections; background softly blurred with city bokeh"
+            },
+            "subject": {
+                "character": "confident, stylish urban creative who embodies a minimalist modern streetwear vibe",
+                "appearance": "medium skin tone, short textured dark hair, clean jawline, wearing a neutral-toned oversized shirt layered over a fitted tee, tapered black trousers, and sleek sneakers",
+                "expression": "relaxed, quietly amused confidence with small, knowing half-smiles that appear when spotting other wearers",
+                "accessories": "minimal black watch, slim ring, and a crossbody bag strap cutting diagonally across the chest"
+            },
+            "props": {
+                "main_props": "slim matte black wayfarer-style sunglasses with subtle metal logo at the temple and soft gradient tinted lenses",
+                "secondary_props": "phone in hand, reusable coffee cup, and a worn transit card that occasionally flashes into view",
+                "environment_props": "passing commuters, café tables and chairs, subway entrance railings, crosswalk lines, streetlights, glass storefronts, and subtle appearances of other people also wearing the same sunglasses"
+            },
+            "setting": {
+                "location": "dense modern downtown neighborhood where a café corner, subway entrance, busy crosswalk, and rooftop overlook all sit within a few city blocks",
+                "time": "late golden hour sliding into blue hour, with warm sunlight giving way to cooler city lights",
+                "background": "softly blurred mix of glass buildings, moving traffic, glowing windows, and the city skyline in the distance",
+                "atmosphere": "aspirational, stylish, slightly cinematic with a sense of a hidden community moving through the same shared city"
+            },
+            "lighting": {
+                "style": "high-end commercial lighting using natural golden backlight and soft fill, transitioning into cooler practical city lights that catch the edges of the frames",
+                "mood": "warm and inviting with a subtle mysterious edge, emphasizing reflections in the lenses whenever two superfans connect",
+                "shadows": "soft, flattering shadows sculpting the face and emphasizing the shape of the sunglasses without obscuring the eyes"
+            }
+        },
+        "action": {
+            "primary_action": "the subject now stands at an outdoor café window, side-on to camera, idly scrolling their phone while holding a coffee cup, sunglasses still on",
+            "secondary_actions": "they lift the cup for a sip, then lower it as a faint smile appears, eyes shifting just past camera toward someone beside them",
+            "interaction": "a slight camera pan reveals another person in line ahead, also wearing the same matte black frames; the two share the smallest chin lift and half-smile, then look forward again as if nothing happened, their matching lenses briefly catching the glow from the café interior",
+            "timing": "0-2s mid shot establishing the café window and the subject in profile, warm light spilling over the lenses; 2-5s closer shot on the subject as they raise the cup, gradient lenses reflecting menu boards and warm bulbs; 5-8s gentle pan to include the second wearer, holding on their mirrored moment and tiny nod before cutting away on the shared stillness",
+            "pacing": "steady and intimate, lingering just long enough on the mutual recognition to feel like a secret handshake without words"
+        },
+        "dialogue": {
+            "speech": "Across the street, in line, on the train. Hidden superfans everywhere.",
+            "tone": "soft, knowing voiceover that feels like an inside joke with the viewer",
+            "lip_sync": "perfect lip synchronization",
+            "no_subtitles": true,
+            "no_captions": true,
+            "no_text_overlay": true
+        },
+        "audio": {
+            "voice": "clean, intimate voice with subtle city reverb, mixed just above the music",
+            "action_sounds": "quiet clink of the coffee cup, gentle fabric movement as the subject shifts weight, faint tap of a thumb on a phone screen",
+            "environmental": "low café chatter, distant traffic, and the soft hiss of an espresso machine under the ambience",
+            "music": "modern, minimal electronic beat with warm bass and light percussive elements, adding a touch more groove than the previous scene",
+            "ambience": "consistent, soft city bed that glues the scene together without ever overpowering the voice or product sounds"
+        },
+        "style": {
+            "genre": "high-end lifestyle commercial for sunglasses",
+            "mood": "cool, aspirational, and quietly conspiratorial with a touch of cinematic flair",
+            "visual_style": "high-contrast but polished, with rich warm highlights and creamy background bokeh, and reflections used as a storytelling device",
+            "pacing": "smooth edits that follow the subject's movement and land on the reflective recognition beat"
+        },
+        "no_subtitles": true,
+        "no_captions": true,
+        "no_text_overlay": true
+    },
+    "scene_3": {
+        "scene": {
+            "camera": {
+                "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",
+                "angle": "mix of close-up product shots and mid shots that show the subject's upper body and face while moving through the city",
+                "motion": "slow, smooth tracking moves alongside the subject with an occasional subtle push-in toward the sunglasses when connections happen",
+                "focus": "crisp focus on sunglasses frames, lenses, and reflections; background softly blurred with city bokeh"
+            },
+            "subject": {
+                "character": "confident, stylish urban creative who embodies a minimalist modern streetwear vibe",
+                "appearance": "medium skin tone, short textured dark hair, clean jawline, wearing a neutral-toned oversized shirt layered over a fitted tee, tapered black trousers, and sleek sneakers",
+                "expression": "relaxed, quietly amused confidence with small, knowing half-smiles that appear when spotting other wearers",
+                "accessories": "minimal black watch, slim ring, and a crossbody bag strap cutting diagonally across the chest"
+            },
+            "props": {
+                "main_props": "slim matte black wayfarer-style sunglasses with subtle metal logo at the temple and soft gradient tinted lenses",
+                "secondary_props": "phone in hand, reusable coffee cup, and a worn transit card that occasionally flashes into view",
+                "environment_props": "passing commuters, café tables and chairs, subway entrance railings, crosswalk lines, streetlights, glass storefronts, and subtle appearances of other people also wearing the same sunglasses"
+            },
+            "setting": {
+                "location": "dense modern downtown neighborhood where a café corner, subway entrance, busy crosswalk, and rooftop overlook all sit within a few city blocks",
+                "time": "late golden hour sliding into blue hour, with warm sunlight giving way to cooler city lights",
+                "background": "softly blurred mix of glass buildings, moving traffic, glowing windows, and the city skyline in the distance",
+                "atmosphere": "aspirational, stylish, slightly cinematic with a sense of a hidden community moving through the same shared city"
+            },
+            "lighting": {
+                "style": "high-end commercial lighting using natural golden backlight and soft fill, transitioning into cooler practical city lights that catch the edges of the frames",
+                "mood": "warm and inviting with a subtle mysterious edge, emphasizing reflections in the lenses whenever two superfans connect",
+                "shadows": "soft, flattering shadows sculpting the face and emphasizing the shape of the sunglasses without obscuring the eyes"
+            }
+        },
+        "action": {
+            "primary_action": "the subject waits at a crosswalk, shoulder-to-shoulder with a small cluster of pedestrians, the camera framing them from the chest up as the city signal counts down",
+            "secondary_actions": "a relaxed weight shift from one foot to the other, a tiny adjustment of the frames with one finger, and a brief glance to the side through the gradient lenses",
+            "interaction": "as the walk signal flips, two other people in the group, both wearing the same matte black frames, step off in sync with the subject; the camera moves in front of them, capturing three matching pairs of sunglasses striding toward camera, each wearer trading subtle half-smiles and micro nods like members of a quiet club before they blend back into the larger crowd",
+            "timing": "0-2s mid shot on the subject at the curb with the red signal reflected faintly in the lenses; 2-5s closer side angle showing the moment they notice the matching frames on nearby faces; 5-8s tracking shot backing across the crosswalk as three superfans walk toward camera together, their sunglasses lining up in a single, strong hero moment before the crowd closes in around them",
+            "pacing": "slightly more kinetic but still smooth, using the movement of the crosswalk to heighten the feeling of a hidden group moving as one"
+        },
+        "dialogue": {
+            "speech": "We spot each other in a heartbeat.",
+            "tone": "confident but understated voiceover, like someone describing a shared instinct",
+            "lip_sync": "perfect lip synchronization",
+            "no_subtitles": true,
+            "no_captions": true,
+            "no_text_overlay": true
+        },
+        "audio": {
+            "voice": "clean, intimate voice with subtle city reverb, mixed just above the music",
+            "action_sounds": "soft heel strikes on the crosswalk, distant signal beeps, light fabric movement as the group steps forward",
+            "environmental": "muted traffic rolling through the intersection, low murmur of a crowd crossing, and a faint breeze between buildings",
+            "music": "modern, minimal electronic beat with warm bass and light percussive elements, rising slightly here to match the group movement",
+            "ambience": "consistent, soft city bed that glues the scene together without ever overpowering the voice or product sounds"
+        },
+        "style": {
+            "genre": "high-end lifestyle commercial for sunglasses",
+            "mood": "cool, aspirational, and quietly conspiratorial with a touch of cinematic flair",
+            "visual_style": "high-contrast but polished, with rich warm highlights and creamy background bokeh, and reflections used as a storytelling device",
+            "pacing": "smooth edits that follow the subject's movement and land on the reflective recognition beat"
+        },
+        "no_subtitles": true,
+        "no_captions": true,
+        "no_text_overlay": true
+    },
+    "scene_4": {
+        "scene": {
+            "camera": {
+                "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",
+                "angle": "mix of close-up product shots and mid shots that show the subject's upper body and face while moving through the city",
+                "motion": "slow, smooth tracking moves alongside the subject with an occasional subtle push-in toward the sunglasses when connections happen",
+                "focus": "crisp focus on sunglasses frames, lenses, and reflections; background softly blurred with city bokeh"
+            },
+            "subject": {
+                "character": "confident, stylish urban creative who embodies a minimalist modern streetwear vibe",
+                "appearance": "medium skin tone, short textured dark hair, clean jawline, wearing a neutral-toned oversized shirt layered over a fitted tee, tapered black trousers, and sleek sneakers",
+                "expression": "relaxed, quietly amused confidence with small, knowing half-smiles that appear when spotting other wearers",
+                "accessories": "minimal black watch, slim ring, and a crossbody bag strap cutting diagonally across the chest"
+            },
+            "props": {
+                "main_props": "slim matte black wayfarer-style sunglasses with subtle metal logo at the temple and soft gradient tinted lenses",
+                "secondary_props": "phone in hand, reusable coffee cup, and a worn transit card that occasionally flashes into view",
+                "environment_props": "passing commuters, café tables and chairs, subway entrance railings, crosswalk lines, streetlights, glass storefronts, and subtle appearances of other people also wearing the same sunglasses"
+            },
+            "setting": {
+                "location": "dense modern downtown neighborhood where a café corner, subway entrance, busy crosswalk, and rooftop overlook all sit within a few city blocks",
+                "time": "late golden hour sliding into blue hour, with warm sunlight giving way to cooler city lights",
+                "background": "softly blurred mix of glass buildings, moving traffic, glowing windows, and the city skyline in the distance",
+                "atmosphere": "aspirational, stylish, slightly cinematic with a sense of a hidden community moving through the same shared city"
+            },
+            "lighting": {
+                "style": "high-end commercial lighting using natural golden backlight and soft fill, transitioning into cooler practical city lights that catch the edges of the frames",
+                "mood": "warm and inviting with a subtle mysterious edge, emphasizing reflections in the lenses whenever two superfans connect",
+                "shadows": "soft, flattering shadows sculpting the face and emphasizing the shape of the sunglasses without obscuring the eyes"
+            }
+        },
+        "action": {
+            "primary_action": "the subject now leans on a low rooftop ledge or elevated street overlook with a small group of three or four people, all wearing the same matte black frames, the city skyline glowing behind them",
+            "secondary_actions": "they trade quiet laughs, one person nudges another with a shoulder, and the main subject turns slightly toward camera, tipping their chin up so the lenses catch both the fading sky and city lights",
+            "interaction": "the group falls into a natural pose facing the view, then almost in unison they glance toward camera for just a heartbeat, subtle smiles and micro nods passing between them as if acknowledging the viewer has just been invited into their unspoken club",
+            "timing": "0-2s wide shot revealing the small group silhouetted against the skyline, all in matching frames; 2-5s closer mid shot as they share a quiet laugh and settle into relaxed poses, reflections of city lights dancing across the lenses; 5-8s final slow push-in on the main subject’s face, the gradient lenses filling frame as they give the slightest nod toward camera before the image holds and then dips to black",
+            "pacing": "unhurried and confident, allowing the final group moment to feel like a reveal of the hidden superfan club"
+        },
+        "dialogue": {
+            "speech": "No badge. No noise. Just the frames.",
+            "tone": "low, assured voiceover that lands like a tagline, sealing the sense of a secret shared between insiders",
+            "lip_sync": "perfect lip synchronization",
+            "no_subtitles": true,
+            "no_captions": true,
+            "no_text_overlay": true
+        },
+        "audio": {
+            "voice": "clean, intimate voice with subtle city reverb, mixed just above the music",
+            "action_sounds": "soft shuffling of shoes on concrete, gentle fabric movement as the group settles against the ledge, faint laugh tails",
+            "environmental": "distant hum of evening traffic far below, a soft breeze, and a barely audible murmur of the city at night",
+            "music": "modern, minimal electronic beat with warm bass and light percussive elements, swelling slightly into a smooth, resolved ending chord as the final line lands",
+            "ambience": "consistent, soft city bed that glues the scene together without ever overpowering the voice or product sounds"
+        },
+        "style": {
+            "genre": "high-end lifestyle commercial for sunglasses",
+            "mood": "cool, aspirational, and quietly conspiratorial with a touch of cinematic flair",
+            "visual_style": "high-contrast but polished, with rich warm highlights and creamy background bokeh, and reflections used as a storytelling device",
+            "pacing": "smooth edits that follow the subject's movement and land on the reflective recognition beat"
+        },
+        "no_subtitles": true,
+        "no_captions": true,
+        "no_text_overlay": true
+    }
+}
