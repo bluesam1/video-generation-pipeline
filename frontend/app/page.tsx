@@ -25,6 +25,7 @@ export type Scene = {
   id: string
   description: string
   thumbnail: string
+  sceneData?: any
 }
 
 export type Character = {
@@ -84,30 +85,33 @@ export default function Home() {
     setSelectedTemplate(null)
   }
 
-  const handleTemplateSelected = (template: Template) => {
+  const handleTemplateSelected = async (template: Template) => {
     setSelectedTemplate(template)
     setProjectName(template.title)
 
-    const mockScenes: Scene[] = [
-      {
-        id: "1",
-        description:
-          "Close-up of stylish eyewear on a minimalist display, highlighting the elegant frame design and premium materials.",
-        thumbnail: "/eyewear-product-display-minimalist.jpg",
-      },
-      {
-        id: "2",
-        description:
-          "Person wearing the glasses in natural outdoor lighting, showcasing how they complement various face shapes and styles.",
-        thumbnail: "/person-wearing-stylish-eyewear-outdoors.jpg",
-      },
-      {
-        id: "3",
-        description:
-          "Product detail shots showing craftsmanship: frame hinges, lens clarity, and brand logo with dramatic lighting.",
-        thumbnail: "/eyewear-detail-craftsmanship-close-up.jpg",
-      },
-    ]
+    // Load from JSON if it's the Hidden Superfans template
+    if (template.title === "Hidden Superfans") {
+      try {
+        const response = await fetch('/templates/hidden-superfans.json')
+        const data = await response.json()
+        
+        // Map JSON scenes to Scene array
+        const loadedScenes: Scene[] = Object.entries(data).map(([key, value]: [string, any], index) => ({
+          id: (index + 1).toString(),
+          description: value.summary || `Scene ${index + 1}`,
+          thumbnail: "/eyewear-product-display-minimalist.jpg",
+          sceneData: value
+        }))
+        
+        setScenes(loadedScenes)
+      } catch (error) {
+        console.error('Failed to load template:', error)
+        setScenes([])
+      }
+    } else {
+      // Empty scenes for other templates
+      setScenes([])
+    }
 
     const placeholderElements: Character[] = [
       {
@@ -127,7 +131,6 @@ export default function Home() {
       },
     ]
 
-    setScenes(mockScenes)
     setCharacters(placeholderElements)
     setStep("scenes")
   }

@@ -318,10 +318,10 @@ export function TemplateSelectionStep({ onNext }: TemplateSelectionStepProps) {
     setSelectedFilters(newFilters)
   }
 
-  const handleTemplateSelect = (template: Template) => {
+  const handleTemplateSelect = async (template: Template) => {
     setSelectedTemplate(template)
-    setTimeout(() => {
-      onNext(template)
+    setTimeout(async () => {
+      await onNext(template)
     }, 300)
   }
 
@@ -329,10 +329,10 @@ export function TemplateSelectionStep({ onNext }: TemplateSelectionStepProps) {
     setPreviewTemplate(template)
   }
 
-  const handleConfirmSelection = () => {
+  const handleConfirmSelection = async () => {
     if (previewTemplate) {
       setSelectedTemplate(previewTemplate)
-      onNext(previewTemplate)
+      await onNext(previewTemplate)
     }
   }
 

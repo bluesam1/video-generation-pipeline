@@ -1,5 +1,6 @@
 {
     "scene_1": {
+        "summary": "Subject walks down a city sidewalk wearing sunglasses, adjusts them, and spots another person wearing the same frames in a storefront reflection - they exchange a knowing nod.",
         "scene": {
             "camera": {
                 "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",
@@ -63,6 +64,7 @@
         "no_text_overlay": true
     },
     "scene_2": {
+        "summary": "Subject stands at an outdoor café window with coffee and phone. Camera reveals another person in line ahead also wearing the same frames - they share a subtle chin lift and half-smile.",
         "scene": {
             "camera": {
                 "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",
@@ -126,6 +128,7 @@
         "no_text_overlay": true
     },
     "scene_3": {
+        "summary": "Subject waits at a crosswalk with pedestrians. When the walk signal flips, three people wearing matching frames step off in sync, trading micro-nods before blending into the crowd.",
         "scene": {
             "camera": {
                 "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",
@@ -189,6 +192,7 @@
         "no_text_overlay": true
     },
     "scene_4": {
+        "summary": "Subject leans on a rooftop ledge with a small group of 3-4 people, all wearing the same frames. They share quiet laughs, then glance toward camera in unison, acknowledging the viewer's entry into their club.",
         "scene": {
             "camera": {
                 "type": "cinematic commercial camera with shallow depth of field and smooth stabilization",

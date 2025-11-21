@@ -19,11 +19,7 @@ import {
   Loader2,
   RefreshCw,
   Upload,
-  FileText,
-  Camera,
-  ImageIcon,
   Pencil,
-  Volume2,
   ChevronDown,
   ChevronUp,
 } from "lucide-react"
@@ -68,40 +64,6 @@ export function ScenesStep({
   const [uploadingElement, setUploadingElement] = useState<Character | null>(null)
 
   const [adDescription, setAdDescription] = useState(selectedTemplate?.bulletPoints || "")
-
-  const [sceneActiveTab, setSceneActiveTab] = useState<
-    Record<string, "description" | "camera" | "background" | "sound">
-  >({})
-  const [sceneCameraData, setSceneCameraData] = useState<Record<string, string>>({})
-  const [sceneBackgroundData, setSceneBackgroundData] = useState<Record<string, string>>({})
-  const [sceneSoundData, setSceneSoundData] = useState<Record<string, string>>({})
-
-  const getActiveTab = (sceneId: string) => sceneActiveTab[sceneId] || "description"
-
-  const getSceneContent = (scene: Scene) => {
-    const activeTab = getActiveTab(scene.id)
-    if (activeTab === "camera") {
-      return sceneCameraData[scene.id] || ""
-    } else if (activeTab === "background") {
-      return sceneBackgroundData[scene.id] || ""
-    } else if (activeTab === "sound") {
-      return sceneSoundData[scene.id] || ""
-    }
-    return scene.description
-  }
-
-  const handleSceneContentChange = (sceneId: string, value: string) => {
-    const activeTab = getActiveTab(sceneId)
-    if (activeTab === "camera") {
-      setSceneCameraData((prev) => ({ ...prev, [sceneId]: value }))
-    } else if (activeTab === "background") {
-      setSceneBackgroundData((prev) => ({ ...prev, [sceneId]: value }))
-    } else if (activeTab === "sound") {
-      setSceneSoundData((prev) => ({ ...prev, [sceneId]: value }))
-    } else {
-      handleSceneUpdate(sceneId, value)
-    }
-  }
 
   const handleSceneUpdate = (sceneId: string, newDescription: string) => {
     const updatedScenes = scenes.map((scene) =>
@@ -453,71 +415,28 @@ export function ScenesStep({
                             )}
                           </div>
                         </div>
-                        <div className="flex-1 flex flex-col">
+                        <div className="flex-1">
                           <Textarea
-                            value={getSceneContent(scene)}
-                            onChange={(e) => handleSceneContentChange(scene.id, e.target.value)}
-                            className="min-h-[140px] resize-none flex-1"
-                            placeholder={
-                              getActiveTab(scene.id) === "camera"
-                                ? "Describe camera movements and angles..."
-                                : getActiveTab(scene.id) === "background"
-                                  ? "Describe the scene background and environment..."
-                                  : getActiveTab(scene.id) === "sound"
-                                    ? "Describe music, sound effects, and audio elements..."
-                                    : "Describe this scene..."
-                            }
+                            value={scene.sceneData ? JSON.stringify(scene.sceneData, null, 2) : scene.description}
+                            onChange={(e) => {
+                              try {
+                                const parsedData = JSON.parse(e.target.value)
+                                const updatedScenes = scenes.map((s) =>
+                                  s.id === scene.id ? { ...s, sceneData: parsedData } : s
+                                )
+                                onScenesUpdated(updatedScenes)
+                              } catch (error) {
+                                // Invalid JSON, just update the raw value temporarily
+                                const updatedScenes = scenes.map((s) =>
+                                  s.id === scene.id ? { ...s, description: e.target.value } : s
+                                )
+                                onScenesUpdated(updatedScenes)
+                              }
+                            }}
+                            rows={20}
+                            className="resize-none font-mono text-xs"
+                            placeholder="Scene data..."
                           />
-                          <div className="flex gap-1 mt-2 border-t border-border pt-2">
-                            <button
-                              onClick={() => setSceneActiveTab((prev) => ({ ...prev, [scene.id]: "description" }))}
-                              className={`flex items-center gap-2 px-3 py-1.5 rounded text-sm transition-colors ${
-                                getActiveTab(scene.id) === "description"
-                                  ? "bg-primary text-primary-foreground"
-                                  : "bg-muted hover:bg-muted/80 text-muted-foreground"
-                              }`}
-                              title="Description"
-                            >
-                              <FileText className="size-4" />
-                              <span className="hidden sm:inline">Description</span>
-                            </button>
-                            <button
-                              onClick={() => setSceneActiveTab((prev) => ({ ...prev, [scene.id]: "camera" }))}
-                              className={`flex items-center gap-2 px-3 py-1.5 rounded text-sm transition-colors ${
-                                getActiveTab(scene.id) === "camera"
-                                  ? "bg-primary text-primary-foreground"
-                                  : "bg-muted hover:bg-muted/80 text-muted-foreground"
-                              }`}
-                              title="Camera"
-                            >
-                              <Camera className="size-4" />
-                              <span className="hidden sm:inline">Camera</span>
-                            </button>
-                            <button
-                              onClick={() => setSceneActiveTab((prev) => ({ ...prev, [scene.id]: "background" }))}
-                              className={`flex items-center gap-2 px-3 py-1.5 rounded text-sm transition-colors ${
-                                getActiveTab(scene.id) === "background"
-                                  ? "bg-primary text-primary-foreground"
-                                  : "bg-muted hover:bg-muted/80 text-muted-foreground"
-                              }`}
-                              title="Scene Background"
-                            >
-                              <ImageIcon className="size-4" />
-                              <span className="hidden sm:inline">Background</span>
-                            </button>
-                            <button
-                              onClick={() => setSceneActiveTab((prev) => ({ ...prev, [scene.id]: "sound" }))}
-                              className={`flex items-center gap-2 px-3 py-1.5 rounded text-sm transition-colors ${
-                                getActiveTab(scene.id) === "sound"
-                                  ? "bg-primary text-primary-foreground"
-                                  : "bg-muted hover:bg-muted/80 text-muted-foreground"
-                              }`}
-                              title="Sound"
-                            >
-                              <Volume2 className="size-4" />
-                              <span className="hidden sm:inline">Sound</span>
-                            </button>
-                          </div>
                         </div>
                       </div>
                     </div>
